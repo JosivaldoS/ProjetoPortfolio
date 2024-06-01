@@ -1,0 +1,37 @@
+
+body{
+    background-color: #252F33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: #576D75;
+    width: 300px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#links,p,h1{
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    padding-top: 10px;
+}
+
+#links{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    background-color: #43494B;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
