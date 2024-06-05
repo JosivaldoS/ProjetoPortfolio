@@ -64,6 +64,7 @@ a{
     margin: 2.7px;
     border-radius: 2px;
     color: black;
+    z-index: 1;
 }
 
 a::before{
@@ -72,15 +73,19 @@ a::before{
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
-    transition: transform 2.4s;
+    width: 0%;
+    transition: all 1.2s;
     transform: translateX(0);
+    z-index: -1;
 }
 
 a:hover::before{
-    transform: translate(100%);
+    width: 100%;
+    transition: all 1.2s;
+    transform: translateX(0);
+    background-color: #355968;
 }
 
 a:hover{
-    background-color: #26414b;
+    color: white;
 }
