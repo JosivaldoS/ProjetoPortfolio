@@ -1,0 +1,49 @@
+main{
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 38px;
+
+    width: 100%;
+    max-width: 1000px;
+}
+
+#main__info{
+    width: 100%;
+    max-width: 441px;
+}
+
+#main__info p{
+    font-size: 18px;
+    margin: 20px 0px 20px;
+}
+
+#main__info div{
+    display: flex;
+    column-gap: 24px;
+}
+
+#main__info div a, #main__info div button{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+
+    transform: skew(-18deg);
+}
+
+#main__info div a{
+    background: var(--green);
+}
+
+#main__info div button{
+    background: transparent;
+    border: 1px solid var(--green);
+}
