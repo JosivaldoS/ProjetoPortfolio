@@ -37,6 +37,7 @@ main{
     letter-spacing: 0.4px;
 
     transform: skew(-18deg);
+    margin: auto;
 }
 
 #main__info div a{
