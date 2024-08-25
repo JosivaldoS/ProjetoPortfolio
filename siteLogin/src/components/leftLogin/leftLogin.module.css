@@ -1,0 +1,55 @@
+.leftLogin {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leftLogin > h1 {
+    font-size: 2.7vw;
+    color: #faeeeb;
+}
+
+.leftLoginImage{
+    width:27vw;
+}
+
+@media only screen and (max-width: 850px){
+
+    .leftLogin{
+        width: 50%;
+        height: auto;
+    }
+
+    .leftLoginImage{
+        width: 50vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .leftLogin > h1{
+        display: none;
+    }
+
+    .leftLogin{
+        width: 100%;
+        height: auto;
+    }
+
+    .leftLoginImage{
+        width: 60vw;
+    }
+
+}
+
+@media only screen and (max-width: 430px){
+
+    .leftLoginImage{
+        width: 80vw;
+    }
+
+}

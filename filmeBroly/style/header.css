@@ -37,7 +37,7 @@ header{
     height: 1px;
     background-color: var(--yellow);
 
-    transform: scaleX(0);
+    transform: scaleX(0); 
     transform-origin: right;
     transition: transform 0.4s;
 }
